@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">VST</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <string name="latest_recommend">最新推荐</string>
+     <string name="tv_show">网络电视</string>
+    <string name="video_type">影视分类</string>
+    <string name="hotestlist">排 行</string>
+    <string name="play_collect">我的收藏</string>
+    <string name="search_allline">搜 索</string>
+    <string name="application">应用程序</string>
+    <string name="settings">我的设置</string>
+
+    
+     <string name="tv_show_regularChancles">常看频道</string>
+    <string name="tv_show_province_in">省内</string>
+    <string name="tv_show_my_chanle">我的频道</string>
+    <string name="tv_show_sports">体育</string>
+    <string name="tv_show_cctv">中央频道</string>
+    <string name="tv_show_satellites">卫视频道</string>
+    <string name="tv_show_local">地方频道</string>
+    
+    
+      <string name="play_collect_tv_renewnum">我的追剧</string>
+    <string name="play_collect_tv_tvname">暂无剧集</string>
+    <string name="play_collect_played">播放历史</string>
+    <string name="play_collect_played_name">暂无播放记录</string>
+    <string name="play_collect_collect">收藏</string>
+    
+</resources>

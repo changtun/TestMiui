@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="relative_onekey_width">450.0px</dimen>
+    <dimen name="relative_onekey_height">450.0px</dimen>
+     <dimen name="relative_onekey_margin_right">10.0px</dimen>
+    <dimen name="relative_onekey_icon_width">172.0px</dimen>
+    <dimen name="relative_onekey_icon_height">172.0px</dimen>
+    <dimen name="relative_onekey_title_height">50.0px</dimen>
+    <dimen name="relative_onekey_title_padding_left">25.0px</dimen>
+     <dimen name="main_setting_linerlayout_left">25.0px</dimen>
+</resources>

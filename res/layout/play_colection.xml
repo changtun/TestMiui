@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"
+        >
+
+        <AbsoluteLayout
+            android:id="@id/play_colection_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <FrameLayout
+                android:id="@id/play_collect_tv_fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="35.0dip"
+                android:layout_y="26.0dip"
+                android:background="@drawable/black_left"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@id/play_collect_tv_poster"
+                    android:layout_width="260.0dip"
+                    android:layout_height="366.0dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hao260x366" />
+
+                <ImageView
+                    android:layout_width="260.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="bottom"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bar_260x100_time" />
+
+                <LinearLayout
+                    android:layout_width="260.0dip"
+                    android:layout_height="83.0dip"
+                    android:layout_gravity="bottom"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@id/play_collect_tv_text_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="0"
+                        android:padding="5.0dip"
+                        android:textColor="@color/green"
+                        android:textSize="26.0dip" />
+
+                    <ImageView
+                        android:layout_width="1.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="3.0dip"
+                        android:background="@color/green" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7.0dip"
+                            android:text="@string/play_collect_tv_renewnum"
+                            android:textColor="@color/white"
+                            android:textSize="22.0dip" />
+
+                        <TextView
+                            android:id="@id/play_collect_tv_text_tvname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7.0dip"
+                            android:hint="@string/play_collect_tv_tvname"
+                            android:textColor="@color/dark"
+                            android:textSize="20.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/play_collect_played_fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="201.0dip"
+                android:layout_y="27.0dip"
+                android:background="@drawable/black_center"
+                android:clickable="true"
+                android:descendantFocusability="afterDescendants"
+                android:focusable="true" >
+
+                <ImageView
+                    android:layout_width="260.0dip"
+                    android:layout_height="366.0dip"
+                    android:background="@drawable/hao260x366" />
+
+                <ListView
+                    android:id="@id/play_collect_played_list"
+                    android:layout_width="260.0dip"
+                    android:layout_height="366.0dip"
+                    android:descendantFocusability="afterDescendants"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:layout_width="260.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/bar_260x100_play_history" />
+
+                <LinearLayout
+                    android:layout_width="260.0dip"
+                    android:layout_height="83.0dip"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/play_collect_played"
+                        android:textColor="@color/white"
+                        android:textSize="22.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@id/play_collect_collected_fl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="484.0dip"
+                android:layout_y="26.0dip"
+                android:background="@drawable/black_right"
+                android:clickable="true"
+                android:focusable="true" >
+
+                <ImageView
+                    android:id="@id/play_collect_collected_poster"
+                    android:layout_width="260.0dip"
+                    android:layout_height="366.0dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hao260x366" />
+
+                <ImageView
+                    android:layout_width="260.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="bottom"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bar_260x100_star" />
+
+                <LinearLayout
+                    android:layout_width="260.0dip"
+                    android:layout_height="100.0dip"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:padding="10.0dip" >
+
+                    <TextView
+                        android:id="@id/play_collect_collected_count"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="0"
+                        android:textColor="@color/white"
+                        android:textSize="26.0dip" />
+
+                    <ImageView
+                        android:layout_width="50.0dip"
+                        android:layout_height="1.0dip"
+                        android:background="@color/green" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/play_collect_collect"
+                        android:textColor="@color/white"
+                        android:textSize="24.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+        </AbsoluteLayout>
+
+        <ImageView
+            android:id="@id/play_collect_reflected_img"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_x="0.0dip"
+            android:layout_y="415.0dip" />
+    </AbsoluteLayout>
+
+</FrameLayout>

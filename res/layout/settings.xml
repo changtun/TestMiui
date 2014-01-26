@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="afterDescendants"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.0dip"
+        android:layout_marginTop="50.0dip" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/net_setup_iv"
+                android:layout_width="366.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/net_setup_s" />
+
+            <TextView
+                android:layout_width="366.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="网络设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/ser_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/ser_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="服务器设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/remot_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/remot_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="快捷键设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/channel_setup_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/channel_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="频道设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@id/vod_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/vod_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="点播设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/settings_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/system_setup_iv"
+                android:layout_width="366.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/system_setup_s" />
+
+            <TextView
+                android:layout_width="366.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="系统设置"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/reg_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/reg_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="登录/注册"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/clear_setup_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/clear_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="清理缓存"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip" >
+
+            <ImageView
+                android:id="@id/testspeed_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/testspeed_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="速度测试"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@id/scaler_setup_iv"
+                android:layout_width="180.0dip"
+                android:layout_height="180.0dip"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/scaler_setup_s" />
+
+            <TextView
+                android:layout_width="180.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_horizontal"
+                android:padding="2.0dip"
+                android:text="屏幕比例"
+                android:textColor="@color/white"
+                android:textSize="24.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/settings_reflected_img"
+        android:layout_width="wrap_content"
+        android:layout_height="100.0dip"
+        android:layout_marginTop="1.0dip" />
+
+</LinearLayout>

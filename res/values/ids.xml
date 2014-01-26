@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- wait_for_data.xml -->
+    <item type="id" name="wait_loading">false</item>
+     <item type="id" name="loading_hint">false</item>
+    <!-- end -->
+    
+    
+    <item type="id" name="title_group">false</item>
+     <item type="id" name="latest_recommend">false</item>
+     <item type="id" name="tv_show">false</item>
+     <item type="id" name="video_type">false</item>
+    <item type="id" name="play_collect">false</item>
+    <item type="id" name="application">false</item>
+    <item type="id" name="settings">false</item>
+    
+    <item type="id" name="main_layout_pager">false</item>
+    
+    <item type="id" name="latest_layout">false</item>
+    <item type="id" name="latest_recommend_1_fl">false</item>
+    <item type="id" name="latest_recommend_1_poster">false</item>
+    <item type="id" name="latest_recommend_1_sharpness">false</item>
+    <item type="id" name="latest_recommend_1_text_bg">false</item>
+    <item type="id" name="latest_recommend_1_text">false</item>
+    <item type="id" name="latest_recommend_2_fl">false</item>
+    <item type="id" name="latest_recommend_2_poster">false</item>
+    <item type="id" name="latest_recommend_2_text_bg">false</item>
+    <item type="id" name="latest_recommend_2_text">false</item>
+    <item type="id" name="latest_recommend_3_fl">false</item>
+    <item type="id" name="latest_recommend_3_poster">false</item>
+    <item type="id" name="latest_recommend_3_text_bg">false</item>
+    <item type="id" name="latest_recommend_3_text">false</item>
+    <item type="id" name="latest_recommend_4_fl">false</item>
+    <item type="id" name="latest_recommend_4_poster">false</item>
+    <item type="id" name="latest_recommend_4_text_bg">false</item>
+    <item type="id" name="latest_recommend_4_text">false</item>
+    <item type="id" name="latest_recommend_5_fl">false</item>
+    <item type="id" name="latest_recommend_5_poster">false</item>
+    <item type="id" name="latest_recommend_5_sharpness">false</item>
+    <item type="id" name="latest_recommend_5_text_bg">false</item>
+    <item type="id" name="latest_recommend_5_text">false</item>
+    <item type="id" name="latest_recommend_6_fl">false</item>
+    <item type="id" name="latest_recommend_6_poster">false</item>
+    <item type="id" name="latest_recommend_6_text_bg">false</item>
+    <item type="id" name="latest_recommend_6_text">false</item>
+    <item type="id" name="latest_recommend_7_fl">false</item>
+    <item type="id" name="latest_recommend_7_poster">false</item>
+    <item type="id" name="latest_recommend_7_text_bg">false</item>
+    <item type="id" name="latest_recommend_7_text">false</item>
+    
+     <item type="id" name="reflected_img">false</item>
+     
+     <!-- tv_show.xml -->
+     
+      <item type="id" name="tv_back_current_tv">false</item>
+    <item type="id" name="tv_back_tv">false</item>
+    <item type="id" name="tv_back_next_tv">false</item>
+    <item type="id" name="tv_back_channles">false</item>
+    <item type="id" name="tv_back_videos">false</item>
+    <item type="id" name="tv_back_weekdays">false</item>
+    <item type="id" name="tv_back_rd_Sunday">false</item>
+    <item type="id" name="tv_back_rd_Monday">false</item>
+    <item type="id" name="tv_back_rd_Tuesday">false</item>
+    <item type="id" name="tv_back_rd_Wednesday">false</item>
+    <item type="id" name="tv_back_rd_Thursday">false</item>
+    <item type="id" name="tv_back_rd_Friday">false</item>
+    <item type="id" name="tv_back_rd_Saturday">false</item>
+    <item type="id" name="tv_back_channel_item_text">false</item>
+    <item type="id" name="tv_back_time">false</item>
+    <item type="id" name="tv_back_name">false</item>
+    <item type="id" name="tv_back_log">false</item>
+    <item type="id" name="type_details_type">false</item>
+    <item type="id" name="tv_back_current_channel">false</item>
+    <item type="id" name="tv_show_tv">false</item>
+    <item type="id" name="tv_show_video">false</item>
+    <item type="id" name="tv_show_chanles">false</item>
+    <item type="id" name="tv_show_chanles_fl">false</item>
+    <item type="id" name="tv_show_regularChancles">false</item>
+    <item type="id" name="tv_show_empty_text">false</item>
+    <item type="id" name="tv_show_province_in">false</item>
+    <item type="id" name="tv_show_my_chanles">false</item>
+    <item type="id" name="tv_show_sports">false</item>
+    <item type="id" name="tv_show_cctv">false</item>
+    <item type="id" name="tv_show_satellites">false</item>
+    <item type="id" name="tv_show_locality">false</item>
+    <item type="id" name="tv_show_refimg">false</item>
+    
+    
+    <!-- video_type.xml -->
+     <item type="id" name="video_type_layout">false</item>
+    <item type="id" name="video_type_xunleiOffLine_fl">false</item>
+    <item type="id" name="video_type_xunleiOffLine_poster">false</item>
+    <item type="id" name="video_type_xunleiOffLine_bg">false</item>
+    <item type="id" name="video_type_xunleiOffLine_text">false</item>
+    <item type="id" name="video_type_tv_fl">false</item>
+    <item type="id" name="video_type_tvPoster">false</item>
+    <item type="id" name="video_type_tv_text">false</item>
+    <item type="id" name="video_type_film_fl">false</item>
+    <item type="id" name="video_type_film_text">false</item>
+    <item type="id" name="video_type_arts_fl">false</item>
+    <item type="id" name="video_type_arts_text">false</item>
+    <item type="id" name="video_type_cartoon_fl">false</item>
+    <item type="id" name="video_type_cartoon_poster">false</item>
+    <item type="id" name="video_type_cartoon_text_bg">false</item>
+    <item type="id" name="video_type_cartoon_text">false</item>
+    <item type="id" name="video_type_jilu_fl">false</item>
+    <item type="id" name="video_type_jilu_text">false</item>
+    <item type="id" name="video_type_education_fl">false</item>
+    <item type="id" name="video_type_education_text">false</item>
+    <item type="id" name="video_type_reflected_img">false</item>
+    
+    
+     <item type="id" name="play_colection_layout">false</item>
+    <item type="id" name="play_collect_tv_fl">false</item>
+    <item type="id" name="play_collect_tv_poster">false</item>
+    <item type="id" name="play_collect_tv_text_count">false</item>
+    <item type="id" name="play_collect_tv_text_tvname">false</item>
+    <item type="id" name="play_collect_played_fl">false</item>
+    <item type="id" name="play_collect_played_list">false</item>
+    <item type="id" name="play_collect_collected_fl">false</item>
+    <item type="id" name="play_collect_collected_poster">false</item>
+    <item type="id" name="play_collect_collected_count">false</item>
+    <item type="id" name="play_collect_reflected_img">false</item>
+    <item type="id" name="play_bottom_poster">false</item>
+    <item type="id" name="play_bottom_videoName">false</item>
+    <item type="id" name="play_bottom_current_source">false</item>
+    <item type="id" name="play_bottom_sharpness">false</item>
+    <item type="id" name="play_bottom_screen_scale">false</item>
+    <item type="id" name="play_bottom_current_time">false</item>
+    <item type="id" name="play_bottom_seekbar">false</item>
+    <item type="id" name="play_bottom_rewind">false</item>
+    <item type="id" name="play_bottom_play_pause">false</item>
+    <item type="id" name="play_bottom_forward">false</item>
+    <item type="id" name="play_bottom_subtitles">false</item>
+    <item type="id" name="play_bottom_audio">false</item>
+    <item type="id" name="play_top_sources">false</item>
+    <item type="id" name="play_history_name">false</item>
+    <item type="id" name="play_history_recode">false</item>
+    
+    
+    <item type="id" name="appgrid">false</item>
+    <item type="id" name="appgrid_page">false</item>
+    
+    
+    <item name="net_setup_iv" type="id" />
+    <item name="ser_setup_iv" type="id" />
+    <item name="remot_setup_iv" type="id" />
+    <item name="channel_setup_iv" type="id" />
+    <item name="vod_setup_iv" type="id" />
+    <item name="settings_layout" type="id" />
+    <item name="system_setup_iv" type="id" />
+    <item name="clear_setup_iv" type="id" />
+    <item name="testspeed_setup_iv" type="id" />
+    <item name="scaler_setup_iv" type="id" />
+    <item name="settings_reflected_img" type="id" />
+    <item name="reg_setup_iv" type="id" />
+    
+    <item name="application_test" type="id" />
+    
+    
+    
+    <item name="app_icon" type="id" />
+    <item name="new_app" type="id" />
+    <item name="app_name" type="id" />
+    <item name="directioniv" type="id" />
+    
+    <!-- tuzi UI 
+    <item name="id_relative_onekey" type="id" />
+    <item name="id_textview_onekey_title" type="id" />
+    <item name="id_relative_onekey_bar" type="id" />
+    <item name="id_imageview_onekey_icon" type="id" />
+    <item name="id_textview_onekey_title_content" type="id" />
+    <item name="id_relative_hudong" type="id" />
+    <item name="id_relative_network" type="id" />
+    <item name="id_relative_hudong_icon" type="id" />
+    <item name="id_relative_hudong_textview" type="id" />
+    <item name="service_switch" type="id" />
+    <item name="id_relative_hudong_bar" type="id" />
+    
+     <item type="id" name="id_relative_resolution">false</item>
+    <item type="id" name="id_relative_about">false</item>
+    <item type="id" name="id_relative_about_icon">false</item>
+    <item type="id" name="id_relative_about_bar">false</item>
+    <item type="id" name="id_relative_about_title">false</item>
+    <item type="id" name="id_mode_title_layout">false</item>
+    <item name="id_relative_reproduction" type="id" />
+    <item name="wireless_ip" type="id" />
+    <item name="signal_tag" type="id" />
+    <item name="wireless_name" type="id" />
+    <item name="wireless_mac" type="id" />
+    <item name="set_network" type="id" />
+    <item name="id_main_setting_linerlayout" type="id" />
+    <item name="id_relative_net_bar" type="id" />
+    
+      <item type="id" name="id_relative_moshi_title">false</item>
+    <item type="id" name="id_relative_moshi_icon">false</item>
+    <item type="id" name="id_relative_moshi_bar">false</item>
+    <item type="id" name="id_relative_cesu">false</item>
+    <item type="id" name="id_relative_cesu_icon">false</item>
+    <item type="id" name="id_relative_cesu_bar">false</item>
+    <item type="id" name="id_relative_cesu_title">false</item>
+    <item name="id_relative_moshi" type="id" />
+    <item name="root_title" type="id" />
+     end 里面有不需要的 -->
+    
+ 
+    
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 
+    <ImageView 
+        android:id="@id/application_test"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginLeft="80.0dip"
+        android:src="@drawable/six"
+        />
+         -->
+    <GridView
+        android:id="@id/appgrid"
+        android:layout_width="wrap_content"
+        android:layout_height="366.0dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80.0dip"
+        android:layout_marginRight="80.0dip"
+        android:layout_marginTop="60.0dip"
+        android:gravity="center"
+        android:horizontalSpacing="6.0dip"
+        android:numColumns="6"
+        android:verticalSpacing="6.0dip" />
+
+    <TextView
+        android:id="@id/appgrid_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.0dip"
+        android:textColor="@color/white"
+        android:textSize="18.0dip" />
+    
+    
+
+</LinearLayout>

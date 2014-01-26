@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180.0dip"
+    android:layout_height="180.0dip"
+    android:background="@drawable/app_bg_selector" >
+
+    
+    <ImageView
+        android:id="@id/app_icon"
+        android:layout_width="120.0dip"
+        android:layout_height="120.0dip"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="10.0dip"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@id/new_app"
+        android:layout_width="54.0dip"
+        android:layout_height="45.0dip"
+        android:layout_gravity="top|left|center"
+        android:src="@drawable/new_app"
+        android:visibility="gone" />
+    
+    <!-- 新的 界面 可以在这个 TextView 旁边 加上两个 图片  -->
+    <TextView
+        android:id="@id/app_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="24.0dip" />
+
+    <ImageView
+        android:id="@id/directioniv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/move_image"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/launcher52_bg"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@id/title_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30.0dip"
+        android:layout_marginLeft="60.0dip"
+        android:layout_marginRight="60.0dip"
+        android:layout_marginTop="60.0dip"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@id/latest_recommend"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/latest_recommend" />
+
+        <RadioButton
+            android:id="@id/tv_show"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/tv_show" />
+
+        <RadioButton
+            android:id="@id/video_type"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/video_type" />
+
+        <RadioButton
+            android:id="@id/play_collect"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/play_collect" />
+
+        <RadioButton
+            android:id="@id/application"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/application" />
+
+        <RadioButton
+            android:id="@id/settings"
+            style="@style/TitleButton"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/settings" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/main_layout_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
